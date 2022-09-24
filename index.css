@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blueviolet;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    background-color: aqua;
+    font-size: 3rem;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 2rem;
+    padding-left: 50px;
+    margin-bottom: 5px;
+}
+
+/* @media only screen and (min-width:320px) {
+    .container{
+        display: block;
+        margin-top: 250px;
+        padding: 0 30px;
+    }
+
+    .content {
+        padding: 70px 30px;
+        background-color: aqua;
+        font-size: 1.5rem;
+        border-radius: 20px;
+    }
+
+    h1{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        padding-left: 0px;
+    }
+
+    #time{
+        padding-left: 30px;
+    }
+} */
+
+
+
+@media only screen and (min-width:425px) {
+    .container{
+        margin-top: 250px;
+        padding: 0 30px;
+    }
+
+    .content {
+        display: block;
+        padding: 70px 80px;
+        background-color: aqua;
+        font-size: 1.5rem;
+        border-radius: 20px;
+    }
+
+    h1{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+
+    #time{
+        padding-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width:375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        padding: 0 30px;
+    }
+
+    .content {
+        padding: 70px 30px;
+        background-color: aqua;
+        font-size: 1.5rem;
+        border-radius: 20px;
+    }
+
+    h1{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        padding-left: 80px;
+    }
+
+    #time{
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    background-color: aqua;
+    font-size: 3rem;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 2rem;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+}
