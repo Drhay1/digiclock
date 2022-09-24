@@ -30,7 +30,7 @@ h1{
     margin-bottom: 5px;
 }
 
-/* @media only screen and (min-width:320px) {
+@media only screen and (max-width:306px) {
     .container{
         display: block;
         margin-top: 250px;
@@ -47,13 +47,13 @@ h1{
     h1{
         font-size: 1.2rem;
         margin-bottom: 5px;
-        padding-left: 0px;
+        padding-left: 20px;
     }
 
     #time{
-        padding-left: 30px;
+        padding-left: 0px;
     }
-} */
+}
 
 
 
